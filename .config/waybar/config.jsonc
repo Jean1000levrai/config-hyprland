@@ -1,0 +1,134 @@
+{
+    "layer": "bottom",
+    "spacing": 0,
+    "height": 43,
+
+    "margin-top": 8,
+    "margin-right": 8,
+    "margin-bottom": 0,
+    "margin-left": 8,
+
+    "modules-left": [
+        "custom/apps",
+        "custom/firefox",
+        "custom/discord",
+        "custom/file", 
+        "custom/code"
+    ],
+
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+
+    "modules-right": [
+        "custom/ip",
+        "pulseaudio",
+        "clock",
+        "custom/power_button"
+    ],
+
+
+    "custom/power_button": {
+        "format": "",
+        "tooltip": "Power Menu",
+        "on-click": "~/.config/waybar/scripts/wlogout.sh"
+    },
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "tooltip": false,
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+          "urgent": "",
+          "default": ""
+        },
+        "sort-by-number": true
+    },
+
+    "clock": {
+        "format": "{:%H:%M} ",
+        "format-alt": "{:%A, %B %d, %Y (%R  )}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+                    "mode"          : "year",
+                    "mode-mon-col"  : 3,
+                    "weeks-pos"     : "right",
+                    "on-scroll"     : 1,
+                    "format": {
+                              "months":     "<span color='#ffead3'><b>{}</b></span>",
+                              "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                              "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                              "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                              "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+                              }
+                    },
+        "actions":  {
+                    "on-click-right": "mode",
+                    "on-scroll-up": "tz_up",
+                    "on-scroll-down": "tz_down",
+                    "on-scroll-up": "shift_up",
+                    "on-scroll-down": "shift_down"
+                    }
+    },
+
+    "custom/ip": {
+        "exec": "~/.config/waybar/scripts/ip.sh",
+        "interval": 10,
+        "return-type": "json",
+        "format": "{}",
+        "tooltip": false
+    },
+
+    "network": {
+        "format-wifi" : "  ",
+        "format-ethernet": "   {ipaddr}",
+        "format-disconnected" : "no network",
+        "interval": 5,
+        "tooltip": false
+    },
+
+    "pulseaudio": {
+        "scroll-step": 5,
+        "max-volume": 150,
+        "format": " {icon} {volume}%",
+        "format-bluetooth": "  ",
+        "nospacing": 1,
+        "on-click": "pavucontrol",
+        "tooltip": false,
+        "format-icons": {
+            "default": ["", "", ""]
+        }
+    },
+    "custom/apps": {
+        "format":"Apps",
+        "on-click":"wofi -show drun --style ~/.config/wofi/style.css",
+        "on-click-right": "killall wofi",
+        "tooltip":false
+    },
+
+    "custom/discord": {
+        "format":"  ",
+        "on-click":"discord",
+        "tooltip":false
+    },
+
+    "custom/firefox": {
+        "format":"  ",
+        "on-click":"firefox",
+        "tooltip":false
+    },
+    "custom/file": {
+        "format":"  ",
+        "on-click":"nautilus",
+        "tooltip":false
+    },
+    "custom/code": {
+        "format":"  ",
+        "on-click":"code",
+        "tooltip":false
+    }    
+
+
+}
