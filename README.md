@@ -44,12 +44,13 @@ Aesthetic Hyprland setup with a Catppuccin vibe.
 **Toggles floating window**
 
 
-## Components Included
+## Features
 - **Hyprland** – window manager
 - **Waybar** – status bar
 - **Wofi** – application launcher
 - **Wlogout** – logout menu
 - **Neofetch** – system info
+- **Btop** - task manager
 
 ## Fonts & Icons
 - **Roboto**
@@ -57,11 +58,21 @@ Aesthetic Hyprland setup with a Catppuccin vibe.
 
 ## Installation
 1. Clone or download this repository.
-2. Copy the contents of this repo to your `~/.config/` directory:
+```bash
+cd path/to/your/folder
+git clone git@github.com:Jean1000levrai/config-hyprland.git
+```
+2. Ensure required dependencies are installed.
+3. Use the installation script
+```bash
+scripts/install.sh
+```
+If you feel extra confident or don't any backups of your previous config
    ```bash
-   cd ~/.config/
-   git clone git@github.com:Jean1000levrai/config-hyprland.git
-3. Ensure required dependencies are installed.
+   scripts/links.sh
+   hyprctl reload
+   ```
+4. There you go! You are now all set to go!
 
 ## Dependencies
 Before using this configuration, install the following packages:
@@ -72,7 +83,10 @@ Before using this configuration, install the following packages:
  - neofetch
  - ttf-roboto
  - font awesome
+ - btop
+ - gtk 3.0 & 4.0
+ - swaync
+
 ## Notes
  - This setup focuses on aesthetics with kind of a Catppuccin vibe;
  - Users are free to use this config but must copy all files manually;
- - No installation script is provided.
