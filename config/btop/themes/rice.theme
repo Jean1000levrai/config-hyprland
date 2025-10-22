@@ -1,0 +1,38 @@
+# RICE THEME - clean dark aesthetic
+
+# Base colors
+theme_background=true
+background=#131313
+main_fg=#ffffff
+title=#ffffff
+hi_fg=#ffffff
+selected_bg=#303030
+selected_fg=#ffffff
+
+# Graphs
+cpu_box=#ffffff
+mem_box=#ffffff
+net_box=#ffffff
+proc_box=#ffffff
+
+# Graph lines
+graph_text=#ffffff
+graph_bg=#303030
+graph_hi=#ffffff
+
+# Meters and bars
+meter_bg=#303030
+cpu_meter=#ffffff
+mem_meter=#ffffff
+net_meter=#ffffff
+proc_meter=#ffffff
+
+# Temperature and load
+temp=#ffffff
+load=#ffffff
+cpu_avg=#ffffff
+
+# Highlights and minor accents
+highlight_fg=#ffffff
+inactive_fg=#808080
+divider_fg=#303030

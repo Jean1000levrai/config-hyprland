@@ -10,6 +10,40 @@ Aesthetic Hyprland setup with a Catppuccin vibe.
 ![Preview Placeholder](#)
 ![Preview Placeholder](#)
 
+## Shortcuts
+### Move Around
+- SUPER + I, J, K, L: 
+**Move Up, Left, Down or Right from window**
+- SUPER + 1, 2, ..., 0: 
+**Move from workspace 1 through 10**
+- SUPER + SHIFT + 1, 2, ..., 0: 
+**Move current window to the workspace selected**
+
+### Must have
+- SUPER + space:
+**Terminal**
+- SUPER + tab:
+**App Launcher**
+- SUPER + Q:
+**Kill active window**
+
+### Launch Frequently Used Apps
+- SUPER + E:
+**File manager**
+- SUPER + F:
+**Firefox**
+- SUPER + C:
+**VSCodium**
+
+### Miscellaneous
+- SUPER + S:
+**Creates a magical workspace**
+- SUPER + SHIFT + S:
+**Moves current window to magical workspace**
+- SUPER + V:
+**Toggles floating window**
+
+
 ## Components Included
 - **Hyprland** – window manager
 - **Waybar** – status bar
