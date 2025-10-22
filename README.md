@@ -93,4 +93,4 @@ If you feel extra confident or don't any backups of your previous config
 
 ## 📝 Notes
  - This setup focuses on aesthetics with kind of a Catppuccin vibe;
- - Users are free to use this config but must copy all files manually;
+ - Users are free to use this config.
