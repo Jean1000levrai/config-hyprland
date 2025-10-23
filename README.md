@@ -1,14 +1,15 @@
 # Hyprland Dotfiles Jean1000
 
-Aesthetic Hyprland setup with a Catppuccin vibe.
+Aesthetic Hyprland setup with a white neon kinda vibe.
 
 ## 🧑‍💻 Author
 **Jean1000**  
 [github.com/jean1000levrai](https://github.com/jean1000levrai)
 
 ## 🖼️ Preview
-![Preview Placeholder](#)
-![Preview Placeholder](#)
+![Preview Placeholder](ressources/screenshot.png)
+![Preview Placeholder](ressources/screenshot1.png)
+![Preview Placeholder](ressources/screenshot2.png)
 
 ## ⚡ Shortcuts
 ### Move Around
@@ -70,6 +71,7 @@ Before using this configuration, install the following packages:
  - btop
  - gtk 3.0 & 4.0
  - swaync
+ - cava
 
 ### Install
 1. Clone or download this repository.
@@ -92,5 +94,19 @@ If you feel extra confident or don't need any backups of your previous config
 
 
 ## 📝 Notes
- - This setup focuses on aesthetics with kind of a Catppuccin vibe;
+ - This setup focuses on aesthetics with kind of a white neon vibe;
  - Users are free to use this config.
+### Config
+- GPU: RTX 4060 ti
+- CPU: i7 12700kf
+- RAM: 32 Gb DDR5
+
+### Small trinkets
+```bash
+cmatrix  # -b (Bold) -C <colour> -u <int> (speed)
+cbonsai  # -l to see it growing
+pipes    # -p <int> (speed) -t <int> (thickness) -r (rainbow)
+cava
+hollywood
+asciiquarium
+```
