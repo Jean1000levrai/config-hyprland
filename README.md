@@ -82,7 +82,7 @@ git clone git@github.com:Jean1000levrai/config-hyprland.git
 ```bash
 scripts/install.sh
 ```
-If you feel extra confident or don't any backups of your previous config
+If you feel extra confident or don't need any backups of your previous config
    ```bash
    scripts/links.sh
    hyprctl reload
