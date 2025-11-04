@@ -78,8 +78,8 @@ Before using this configuration, install the following packages:
 ```bash
 cd path/to/your/folder
 git clone git@github.com:Jean1000levrai/config-hyprland.git
-```
-2. Ensure required dependencies are installed.
+```   
+2. Ensure required dependencies are installed.   
 3. Use the installation script
 ```bash
 scripts/install.sh
@@ -87,10 +87,16 @@ scripts/install.sh
 If you feel extra confident or don't need any backups of your previous config
    ```bash
    scripts/links.sh
-   hyprctl reload
    ```
-4. There you go! You are now all set to go!
+`install.sh` creates backups by copying each riced folder already existing with `<name>_backup`.   
+`links.sh` does not create any backups of your riced folders, use it if you used links with your previous config OR if it is a fresh install.   
 
+4. Reload hyprland
+```bash
+hyprctl reload
+```   
+
+5. There you go! You are now all set to go!
 
 
 ## 📝 Notes
