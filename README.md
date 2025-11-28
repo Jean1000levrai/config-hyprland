@@ -10,6 +10,9 @@ Aesthetic Hyprland setup with a white neon kinda vibe.
 ![Preview Placeholder](ressources/screenshot.png)
 ![Preview Placeholder](ressources/screenshot1.png)
 ![Preview Placeholder](ressources/screenshot2.png)
+![wlogout]()
+![rofi]()
+
 
 ## ⚡ Shortcuts
 ### Move Around
