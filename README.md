@@ -77,10 +77,12 @@ Before using this configuration, install the following packages:
  - cava
 
 ### Install
+This assumes that you already have Arch Linux with Hyprland installed on your computer.   
+If this is not the case, go check out the [Installation Guide](arch_installation_guide.md)
 1. Clone or download this repository.
 ```bash
 cd path/to/your/folder
-git clone git@github.com:Jean1000levrai/config-hyprland.git
+git clone https://github.com/Jean1000levrai/config-hyprland.git
 ```   
 2. Ensure required dependencies are installed.   
 3. Use the installation script
@@ -110,7 +112,7 @@ hyprctl reload
 - CPU: i7 12700kf
 - RAM: 32 Gb DDR5
 
-### Small trinkets
+### Small Cool Stuff
 ```bash
 cmatrix  # -b (Bold) -C <colour> -u <int> (speed)
 cbonsai  # -l to see it growing
